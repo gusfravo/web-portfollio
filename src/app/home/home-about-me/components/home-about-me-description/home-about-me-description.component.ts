@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HomeAboutIcons } from '../../enums/home-about-me.enum';
 
 @Component({
   selector: 'app-home-about-me-description',
@@ -8,5 +9,6 @@ import { Component } from '@angular/core';
   styleUrl: './home-about-me-description.component.scss'
 })
 export class HomeAboutMeDescriptionComponent {
+  public homeAboutMe = HomeAboutIcons;
 
 }

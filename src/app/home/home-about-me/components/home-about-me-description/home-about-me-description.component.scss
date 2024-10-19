@@ -36,6 +36,23 @@
                 list-style-type: none;
                 margin: 0;
                 padding: 0;  
+                display: flex;
+                flex-wrap: wrap;
+            }
+            li{
+                display: flex;
+                align-items: center;
+                margin-bottom: 1rem;
+                width: 50%;
+            }
+            &__avatar{
+                width: 30px;
+                height: 30px;
+                padding: 5px;
+
+                img{
+                    width: 100%;
+                }
             }
         }
     }
