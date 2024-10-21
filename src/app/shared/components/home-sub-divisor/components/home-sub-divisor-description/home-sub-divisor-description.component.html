@@ -1,5 +1,12 @@
 <div class="home-sub-divisor-description">
     <div class="home-sub-divisor-description-content">
         <div class="home-sub-divisor-description-content__title">{{subDivisorDescription()?.title}}</div>
+        <ul>
+            @for (item of subDivisorDescription()?.sections; track $index) {
+                <li [routerLink]="item.routerLink">
+                    <p>{{item.title}}</p>
+                </li>
+            }
+        </ul>
     </div>
 </div>
