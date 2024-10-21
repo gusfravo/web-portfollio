@@ -1,10 +1,22 @@
 import { subDivisorData } from "../../shared/interface";
 
 export const HOME_SUBDIVISOR_DATA_WEB_APPS:subDivisorData = {
-    title:'Aplicaciones WEB',
+    title:'Aplicaciones Moviles',
     sections:[
         {
-            title:'Velas y Veladoras de Oaxaca',
+            title:'Nomina App',
+            routerLink:''
+        },{
+            title:'Presto Mex',
+            routerLink:''
+        },{
+            title:'Nomina Prohumano',
+            routerLink:''
+        },{
+            title:'Primera Sección',
+            routerLink:''
+        },{
+            title:'Travel Click',
             routerLink:''
         }
     ]
