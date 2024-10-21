@@ -1,1 +1,14 @@
-<p>home-about-me-skills works!</p>
+<div class="home-about-me-skills">
+    
+    <div class="home-about-me-skills-content">
+        <h2>Habilidades</h2>
+            <div class="home-about-me-skills-content-images">
+                @for (skill of skilss; track skill){
+                    <div class="home-about-me-skills-content-images-item-box">
+                        <img src="{{skill}}" alt="html">
+                    </div>
+                }
+            </div>
+    </div>
+
+</div>

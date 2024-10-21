@@ -1,0 +1,25 @@
+.home-about-me-skills{
+    color:#141414;
+    font-family: monospace;
+    text-transform: capitalize;
+    &-content{
+        border: 1px solid black;
+        border-radius: 15px;
+        min-height: 5rem;
+        padding: 1rem 1.5rem;
+
+        &-images{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            justify-items: center;
+
+            &-item-box{
+                border-radius: 50%;
+                width: 3rem;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }   
+}
